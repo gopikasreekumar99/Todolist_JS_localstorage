@@ -2,7 +2,7 @@
 
 <p> This repository houses a Todo List built using JavaScript with added local storage functionality. The Todo List empowers users to manage tasks efficiently by enabling them to add, mark as done, delete, and clear tasks. The local storage feature ensures that tasks persist even after closing the browser.<p>
 
-<h2>Features:<h2>
+<h2>Features:</h2>
 <ul>
 <li>Add tasks: Users can seamlessly add new tasks to the list.</li>
 <li>Mark tasks as done: Tasks can be marked as completed.</li>
