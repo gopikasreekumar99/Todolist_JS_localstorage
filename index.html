@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List</title>
+    <link href="style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  </head>
+  <body>
+    <div class="container">
+      <div id="myDIV" class="header">
+        <h2>To Do List</h2>
+        <input type="text" id="myInput" class="input" placeholder="Add new Tasks..."/>
+        <span onclick="newElement()" class="addBtn">Add</span>
+      </div>
+
+      <div class="second-div">
+        <ul id="myUL"></ul>
+      </div>
+
+      <div class="btn-div">
+        <button onclick="clearCompleted()" class="actionBtn clearAll-btn">
+          Clear All Completed
+        </button>
+        <button onclick="removeAll()" class="actionBtn removeAll-btn">
+          Remove All
+        </button>
+      </div>
+    </div>
+    
+
+    <script src="todo.js"></script>
+  </body>
+</html>
